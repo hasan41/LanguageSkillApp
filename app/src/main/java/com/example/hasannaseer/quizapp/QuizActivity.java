@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
@@ -140,7 +141,7 @@ public class QuizActivity extends AppCompatActivity{
             questionCounter++;
             textViewQuestionCount.setText("Question: " + questionCounter + "/" + questionCountTotal);
             answered = false;
-            buttonConfirmNext.setText("Confirm");
+           buttonConfirmNext.setText("Confirm");
 
             timeLeftInMillis = COUNTDOWN_IN_MILLIS;
             startCountDown();

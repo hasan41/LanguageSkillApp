@@ -10,7 +10,8 @@
         android:id="@+id/l1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/code"/>
+        android:background="@drawable/code"
+        android:orientation="horizontal" />
 
     <LinearLayout
         android:id="@+id/l2"
@@ -22,7 +23,9 @@
         android:layout_marginTop="0dp"
         android:alpha="0.9"
         android:background="@color/colorPrimaryDark1"
-        />
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:orientation="horizontal" />
 
     <ImageView
         android:layout_width="90dp"
