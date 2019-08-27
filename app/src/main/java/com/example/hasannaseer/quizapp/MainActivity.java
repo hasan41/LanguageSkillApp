@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_starting_screen);
-        
+
         MyCustomDialog = new Dialog(this);
 
         textViewHighscore = findViewById(R.id.text_view_highscore);
@@ -57,9 +57,9 @@ public class MainActivity extends AppCompatActivity {
         loadHighscore();
         //xloadQuestions();
 
-        l1 = (RelativeLayout) findViewById(R.id.l1);
-        uptodown = AnimationUtils.loadAnimation(this,R.anim.uptodown);
-        l1.setAnimation(uptodown);
+//        l1 = (RelativeLayout) findViewById(R.id.l1);
+//        uptodown = AnimationUtils.loadAnimation(this,R.anim.uptodown);
+//        l1.setAnimation(uptodown);
 
 
         Button buttonStartQuiz = findViewById(R.id.button_start_quiz);

@@ -52,14 +52,14 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/spinner_category"
         android:layout_centerInParent="false"
-        android:layout_marginStart="-100dp"
-        android:layout_marginBottom="-146dp"
+        android:layout_marginStart="-107dp"
+        android:layout_marginLeft="-107dp"
+        android:layout_marginBottom="-143dp"
         android:layout_toEndOf="@+id/text_view_highscore"
+        android:layout_toRightOf="@+id/text_view_highscore"
         android:onClick="ShowMyDialog"
         android:text="Links"
-        android:textColor="@android:color/holo_blue_dark"
-        android:layout_marginLeft="-100dp"
-        android:layout_toRightOf="@+id/text_view_highscore" />
+        android:textColor="@android:color/holo_blue_dark" />
 
     <Spinner
         android:id="@+id/spinner_category"
@@ -78,10 +78,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/spinner_category"
         android:layout_alignStart="@+id/button_start_quiz"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="21dp"
-        android:layout_marginLeft="8dp"
-        android:layout_alignLeft="@+id/button_start_quiz" />
+        android:layout_alignLeft="@+id/button_start_quiz"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="21dp" />
 
     <TextView
         android:id="@+id/textView"
@@ -90,9 +90,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="113dp"
-        android:layout_marginRight="113dp"
-        android:layout_marginBottom="6dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginRight="102dp"
+        android:layout_marginBottom="19dp"
         android:text="©Hasan Naseer"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="16sp" />
