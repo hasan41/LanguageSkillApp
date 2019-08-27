@@ -17,8 +17,8 @@ public class SplashScreen extends AppCompatActivity {
                 .withTargetActivity(MainActivity.class)
                 .withSplashTimeOut(3000)
                 .withBackgroundColor(Color.parseColor("#074E72"))
-                .withLogo(R.drawable.wmgggcp5l)
-                .withAfterLogoText("Quiz App")
+                .withLogo(R.drawable.ic_coding02)
+                .withAfterLogoText("QUIZ APP")
                 .withFooterText("Copyright 2019");
 
         //Set Text Color
