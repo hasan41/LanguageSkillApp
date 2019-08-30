@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">Computer Science Interview Questions(Pocket Edition) </string>
+    <string name="app_name">Quiz App(Pocket Edition) </string>
     <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_login">LoginActivity</string>
     <!-- <item name="colorPrimary">@color/colorPrimary</item> -->
 
 </resources>

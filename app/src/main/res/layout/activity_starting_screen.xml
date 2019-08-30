@@ -49,6 +49,7 @@
         android:layout_alignLeft="@+id/textView"
         android:layout_marginLeft="17dp" />
 
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -60,7 +61,7 @@
         android:layout_toEndOf="@+id/text_view_highscore"
         android:layout_toRightOf="@+id/text_view_highscore"
         android:onClick="ShowMyDialog"
-        android:text="Links"
+        android:text="Log IN"
         android:textColor="@android:color/holo_blue_dark" />
 
     <Spinner

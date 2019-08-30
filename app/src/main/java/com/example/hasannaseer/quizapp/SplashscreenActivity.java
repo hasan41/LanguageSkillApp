@@ -1,15 +1,6 @@
 package com.example.hasannaseer.quizapp;
 
-import android.content.Intent;
-import android.os.CountDownTimer;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-
-import android.view.animation.AlphaAnimation; //instance class
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
-import android.widget.LinearLayout;
-import android.widget.TextView;               //instance class
+import androidx.appcompat.app.AppCompatActivity;
 
 public class SplashscreenActivity extends AppCompatActivity {
 //    private TextView mTitle;

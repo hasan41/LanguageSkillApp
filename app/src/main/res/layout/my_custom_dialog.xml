@@ -34,7 +34,7 @@
         tools:layout_editor_absoluteX="13dp"
         tools:layout_editor_absoluteY="229dp" />
 
-    <android.support.v7.widget.AppCompatImageButton
+    <androidx.appcompat.widget.AppCompatImageButton
         android:id="@+id/btn_login"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
