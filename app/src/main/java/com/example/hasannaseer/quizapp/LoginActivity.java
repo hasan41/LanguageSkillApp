@@ -62,7 +62,7 @@ public class LoginActivity extends AppCompatActivity {
                     startActivity(i);
                 }
                 else{
-                    Toast.makeText(LoginActivity.this,"Please Login",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(LoginActivity.this,"Please Login to continue",Toast.LENGTH_SHORT).show();
                 }
 
                 //added because user was not showing up the Login Screen everytime user signup
