@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">QUIZ APP</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <!-- <item name="colorPrimary">@color/colorPrimary</item> -->
+
+</resources>

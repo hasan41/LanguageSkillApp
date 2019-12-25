@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/l1"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ig2"
+    android:backgroundTint="@color/colorPrimary"
+    android:padding="16dp"
+    tools:context="com.example.hasannaseer.quizapp.MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:text="Quiz App"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_view_highscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button_start_quiz"
+        android:layout_alignStart="@+id/button_start_quiz"
+        android:layout_marginStart="-3dp"
+        android:layout_marginBottom="51dp"
+        android:text="Highscore: 0"
+        android:textColor="@color/colorFacebook"
+        android:textSize="20sp"
+        android:layout_marginLeft="-3dp"
+        android:layout_alignLeft="@+id/button_start_quiz" />
+
+    <Button
+        android:id="@+id/button_start_quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="17dp"
+        android:text="Start Quiz"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_marginLeft="17dp"
+        android:background="@drawable/reg_edittext_style"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinner_category"
+        android:layout_centerInParent="false"
+        android:layout_marginStart="-104dp"
+        android:layout_marginLeft="-104dp"
+        android:layout_marginBottom="-147dp"
+        android:layout_toEndOf="@+id/text_view_highscore"
+        android:layout_toRightOf="@+id/text_view_highscore"
+        android:background="@drawable/reg_edittext_style"
+        android:onClick="ShowMyDialog"
+        android:text="Links"
+        android:textColor="@color/colorFacebook" />
+
+    <Spinner
+        android:id="@+id/spinner_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_start_quiz"
+        android:layout_alignStart="@+id/button_start_quiz"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="16dp"
+        android:layout_alignLeft="@+id/button_start_quiz"
+        android:layout_marginLeft="2dp" />
+
+    <Spinner
+        android:id="@+id/spinner_difficulty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_category"
+        android:layout_alignStart="@+id/button_start_quiz"
+        android:layout_alignLeft="@+id/button_start_quiz"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="21dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="108dp"
+        android:layout_marginRight="108dp"
+        android:layout_marginBottom="0dp"
+        android:text="©Hasan Naseer"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp" />
+
+</RelativeLayout>
